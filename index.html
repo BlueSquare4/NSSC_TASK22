@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="website.css">
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo"><img src="images/logo192.png" alt=""></h1>
+        <ul class="nav-links">
+            <li class="active"><a href="index.html"></a>HOME</li>
+            <li><a href="#c1">Galaxy</a></li>
+            <li><a href="#c2">Gallery</a></li>
+            <li><a href="#c3">About NSSC</a></li>
+            <li class="ctn"><a  href="login.html" >Login</a></li>
+        </ul>
+        <img src="images/menu-btn.png" class="menu-btn" alt="">
+    </nav>
+     <header>
+         <div class="header-content">
+             <h2>Let's explore the COSMOS</h2>
+             <div class="line"></div>
+             <h1>WELCOME TO NSSC-22</h1>
+             <a href="https://wiki.metakgp.org/w/National_Students%27_Space_Challenge" target="_blank" class="ctn">Learn More</a>
+         </div>
+     </header>
+     <section class="events" id="c1">
+         <div class="title">
+             <h1>Different types of Galaxies</h1>
+             <div class="line"></div>
+         </div>
+         <div class="row">
+             <div class="col">
+                 <img src="images/spiral_galaxy 1.jpg" alt="">
+                 <h4>Spiral galaxy</h4>
+                 <p>Spiral galaxies have a central bulge of primarily older stars from which spiral arms containing younger stars extend outwards and a nearly 
+                     imperceptible spherical halo surrounding the entire galaxy.</p>
+                 <a href="https://study.com/academy/lesson/galaxy-definition-lesson-quiz.html" target="_blank" class="ctn">Learn More</a>    
+             </div>
+             <div class="col">
+                <img src="images/elliptical galaxy.jpg" alt="">
+                <h4>Elliptical galaxy</h4>
+                <p>Elliptical galaxies do not have the finely defined features of a spiral galaxy but instead appear as very smooth ellipsoids.</p>
+                <a href="https://study.com/academy/lesson/galaxy-definition-lesson-quiz.html" target="_blank" class="ctn">Learn More</a>    
+            </div>
+         </div>
+     </section>
+     <section class="gallery" id="c2">
+         <h1>COSMIC Gallery</h1>
+         <div class="maindiv">
+
+         </div>
+     </section>
+     <section class="explore" id="c3">
+        <div class="explore-content">
+            <h1>ABOUT NSSC</h1>
+            <div class="line"></div>
+            <P>NSSC primarily motives on inculcating a culture of Space Technology, inspiring and promoting research in space applications, technology, astronomy, astrophysics and related fields; and broadening the horizons of the student community to cosmic research by interacting with eminent scientists, professionals and technicians working in Space Application and 
+                Research based Organisations throughout the world.</P>
+                <a href="https://wiki.metakgp.org/w/National_Students%27_Space_Challenge" target="_blank" class="ctn">Learn More</a>
+        </div>
+     </section>
+     <footer>
+       
+        <a class="ctn" href="contactme.html" target="_blank">Contact me</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="ytn" href="https://www.youtube.com/channel/UCiJ-HcbSkilzXHUtthLLOew" target="_blank">YOUTUBE</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="ctn" href="term.html" target="_blank">@policy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    </footer>
+    
+
+     <script>
+         const menuBtn = document.querySelector('.menu-btn')
+         const navlinks = document.querySelector('.nav-links')
+
+         menuBtn.addEventListener('click',()=>{
+             navlinks.classList.toggle('mobile-menu')
+         })
+     </script>
+    
+</body>
+</html>

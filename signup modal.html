@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background-image: url(images/sp-8.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .sign-up-form {
+            width: 400px;
+            box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+            background: rgba(87, 65, 227, 0.745);
+            padding: 20px;
+            margin: 8% auto 0;
+            text-align: center;
+        }
+        .sign-up-form h1 {
+            color: #1c8adb;
+            margin-bottom: 30px;
+        }
+        .input-box {
+            border-radius: 20px;
+            padding: 10px;
+            margin: 10px 0;
+            width: 100%;
+            border: 1px solid #999;
+            outline: none;
+        }
+        button {
+            color: #fff;
+            width: 100%;
+            padding: 10px;
+            border-radius: 20px;
+            font-size: 15px;
+            margin: 10px 0;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+        .sign-btn {
+            background-color: #1c8bdbc7;
+        }
+        .goo-btn {
+            background-color: #47364e;
+        }
+        a {
+            text-decoration: none;
+        }
+        hr {
+            margin-top: 20px;
+            width: 80%;
+        }
+        .or {
+            background:#999;
+            width: 30px;
+            margin: -19px auto 10px;
+        }
+        img {
+            width: 70px;
+            margin-top: -50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sign-up-form">
+        <img src="images/logo192.png" alt="">
+        <h1>NSSC</h1>
+        <form action="">
+            <h1>Signup here</h1>
+            <p>
+                <input type="name" required class="input-box" placeholder="name">
+        </p>
+        <fieldset>
+            <legend>Gender: </legend>
+            <p>
+            "Male"
+            <input type="radio" name="gender" id="male" required>
+            "Female"
+            <input type="radio" name="gender" id="male" required>
+            "Others"
+            <input type="radio" name="gender" id="male" required>
+        </p>
+        </fieldset>
+        <p>
+            "Email: "
+            <input type="Email" required class="input-box" placeholder="Your Email">
+            <br>
+            "create a password: "
+            <input type="password" required class="input-box" placeholder="Your Password">
+        </p>
+        <p>
+            "confirm password :"
+            <input type="password" required class="input-box" placeholder="Your Password">
+        </p>
+        <p>
+            "Address: "
+            <textarea required name="address" placeholder="Current address" id="address" cols="20" rows="10"></textarea>
+        </p>
+        <p>
+            
+            <input type="text" required class="input-box" placeholder="City name">
+            
+            <input type="text" required class="input-box" placeholder="State name">
+        </p>
+        <p>
+            "Pincode :"
+            <input type="number" required name="pincode" id="pincode">
+        </p>
+        <p> <span><input required type="checkbox"></span> I have filled correct information and to the best of my knowledge.</p>
+        <button type="submit" class="sign-btn"> <a href="#">Sign Up</a></button>
+        <hr>
+        <button type="button" class="sign-btn"><a href="index.html">Home</a></button>
+        </form>
+    </div>
+</body>
+</html>
